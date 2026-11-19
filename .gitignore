@@ -221,3 +221,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ZTA KnowledgeAI local persistence (never commit user documents or vectors)
+data/
+*.sqlite
+*.db
