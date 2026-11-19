@@ -2,7 +2,7 @@
 
 **Open-source enterprise knowledge retrieval and grounded AI assistant**  
 **Maintained by:** Zain The Analyst (Private) Limited  
-**Status:** Architecture proposal — implementation not yet started
+**Status:** Milestone 1 implementation committed; runtime validation pending
 
 ## Executive overview
 
@@ -24,7 +24,7 @@ Teams spend time searching scattered PDFs, manuals, policies, reports, and knowl
 - Evaluate retrieval quality, groundedness, abstention, latency, and resource usage.
 - Apply tenant and document-level authorization **before** retrieval and again when resolving citations.
 
-All capabilities above are **planned**, not yet delivered.
+**Milestone 1 source code is now present:** PDF/TXT/MD ingestion, fixed-size chunking, local embeddings, Qdrant Local dense retrieval, optional Gemini generation, a FastAPI interface, and initial API tests. **Not yet implemented:** DOCX/HTML parsing, hybrid BM25 retrieval, reranking, LangGraph workflows, document-level ACLs, verified claim-level citations, production security, and frontend. The implementation has not yet been run or benchmarked on target hardware. See [Getting Started](docs/GETTING_STARTED.md).
 
 ## Architecture
 
